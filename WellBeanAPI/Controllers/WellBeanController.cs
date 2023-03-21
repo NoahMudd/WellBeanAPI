@@ -44,6 +44,7 @@ namespace WellBeanAPI.Controllers
                 Id = Guid.NewGuid(),
                 SurveyDate = DateTime.Now,
                 UserName = addSurveyRequest.UserName,
+                MinutesExercised = addSurveyRequest.MinutesExercised,
                 OzWater = addSurveyRequest.OzWater,
                 DietRating = addSurveyRequest.DietRating,
                 HoursSlept = addSurveyRequest.HoursSlept,
@@ -66,6 +67,7 @@ namespace WellBeanAPI.Controllers
             if (survey != null)
             {
                 survey.UserName = updateSurveyRequest.UserName;
+                survey.MinutesExercised = updateSurveyRequest.MinutesExercised;
                 survey.OzWater = updateSurveyRequest.OzWater;
                 survey.DietRating = updateSurveyRequest.DietRating;
                 survey.HoursSlept = updateSurveyRequest.HoursSlept;

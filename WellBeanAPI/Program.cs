@@ -10,7 +10,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<WellBeanAPIDbContext>(options => options.UseInMemoryDatabase("WellBeanDb"));
+//builder.Services.AddDbContext<WellBeanAPIDbContext>(options => options.UseInMemoryDatabase("WellBeanDb"));
+builder.Services.AddDbContext<WellBeanAPIDbContext>(options =>
+options.UseSqlServer(builder.Configuration.GetConnectionString("WellBeanAPIConnectionString")));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

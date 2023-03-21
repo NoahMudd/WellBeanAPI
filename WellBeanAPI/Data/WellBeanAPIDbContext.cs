@@ -7,7 +7,6 @@ namespace WellBeanAPI.Data
     {
        public WellBeanAPIDbContext(DbContextOptions options) : base(options)
         {
-
         } 
         
        public DbSet<Survey> Surveys { get; set; }
