@@ -7,4 +7,4 @@ WellBeanAPI is a service that allows users to track certain health data points. 
 * Make your application asynchronous
 
 ### Current State
-The current state of the API uses SwaggerUI to allow user input, which is then stored in memory. This means user input is not saved in between sessions. A better user interface, more useful data storage, and graphing of some data is planned for the future.
+The current state of the API uses SwaggerUI to allow user input, which is then stored in memory. This means user input is not saved in between sessions. I have previously connected the API to a local database, so some artifacts of that are left in the code. A better user interface, more useful data storage, and graphing of some data is planned for the future.
