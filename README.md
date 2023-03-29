@@ -59,3 +59,5 @@ The current state of the API uses SwaggerUI to allow user input, which is then s
     "didYouWork": true,
     "wellbeingRating": 7
 }
+
+**Note: SwaggerUI only allows one entity to be created at a time**
