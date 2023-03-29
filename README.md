@@ -19,6 +19,7 @@ The current state of the API uses SwaggerUI to allow user input, which is then s
   "didYouWork": false,
   "wellbeingRating": 10
 }
+
 {
   "userName": "String Bean",
   "minutesExercised": 100,
@@ -28,6 +29,7 @@ The current state of the API uses SwaggerUI to allow user input, which is then s
   "didYouWork": true,
   "wellbeingRating": 7
 }
+
 {
   "userName": "Mr. Bean",
   "minutesExercised": 12,
@@ -37,6 +39,7 @@ The current state of the API uses SwaggerUI to allow user input, which is then s
   "didYouWork": true,
   "wellbeingRating": 9
 }
+
 {
    "userName": "Green Bean",
    "minutesExercised": 0,
@@ -46,7 +49,8 @@ The current state of the API uses SwaggerUI to allow user input, which is then s
    "didYouWork": true,
    "wellbeingRating": 2
 }
-{   
+
+{
     "userName": "Jelly Bean",
     "minutesExercised": 20,
     "ozWater": 32,
